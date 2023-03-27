@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>BeautyDoctor</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+</head>
+<body>
+  <main>
+		<a class="add_palitra" href="#head"><img title="Кнопка вверх" src="./image/icon/button-to-up.svg" alt="buttons" /></a>
+   <header class="header" id="head">
+        <div class="container">
+          <div class="hdr">
+            <div class="header-nav">
+                
+								<div class="header-logo">
+									<a href="#head" class="logo"><img src="image/header/logo1.png" alt=""></a>
+									<div class="header-logo__text">
+										<p class="header-logo__text">BEAUTY</p>
+										<p class="header-logo__text">DOCTOR</p>
+									</div>
+								</div>
+                    <nav class="nav-open">
+                        <ul class="nav-list">
+                            <li class="nav-item"><a href="#head" class="nav-link">Главная</a></li>
+                            <li class="nav-item"><a href="#service" class="nav-link">Почему именно я</a></li>
+                            <li class="nav-item"><a href="#work" class="nav-link">Мои работы</a></li>
+                            <li class="nav-item"><a href="#doc" class="nav-link">Мои документы и сертификаты</a></li>
+                            <li class="nav-item"><a href="#cont" class="nav-link">Контакты</a></li>
+                            <button class="nav-button">
+                              <img src="image/icon/nav-open.png" alt="nav-button">
+                            </button>
+                        </ul>
+                      </nav>
+            </div>
+          </div>
+                <!--header content-->
+                <div class="header-row">
+                    <div class="header-content">
+                        <h1 class="header-heading">Меня зовут <br> Рейхан Агаева</h1>
+                        <p>Я врач-дерматолог с опытом работы более 9 лет, закончила Московский государственный медицинский университет им. И. М. Сеченова с красным дипломом.<br>
+                              За мой стаж работы косметологом мной была пройдена масса курсов по косметологии, что мне помогает становиться лучше. <br> 
+                                Записаться ко мне на консультацию вы можете заполнив форму ниже, вам перезвонят в течении 15 минут и подберут удобное для вас время и место.</p>
+
+                                        <div class="zapis">
+                                    <div class="button">
+														<a href="#" id="open_pop_up">
+																<span class="button__line button__line--top"></span>
+																		<span class="button__line button__line--right "></span>
+																				<span class="button__line button__line--bottom "></span>  
+																						<span class="button__line button__line--left"></span> Запись</a>
+                                    </div>
+                                  </div>
+                                  <div class="pop_up" id="pop_up">
+                                    <div class="pop_up_container">
+                                      <div class="pop_up_body" id="pop_up_body">
+                                        <p>Оставить заявку</p>
+                                        <form id="tg">
+                                          <input name="name" type="text" class="user_name" placeholder="Ваше имя">
+                                          <input name="number" type="tel" class="message" placeholder="Ваш номер телефона">
+                                          <button type="submit" class="button">Оставить заявку</button>
+																					<div id="success" class="success" style="display: none;"></div>
+                                        </form>
+                                        <div class="pop-up-close" id="pop_up_close">&#10006;</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                    </div>
+                        <div class="header-image" data-aos="fade-left">
+                            <img src="image/doctor/photo_2023-03-24_19-48-03.jpg" alt="">
+                        </div>
+                </div>
+        </div>
+   </header>
+
+   <section class="services" id="service">
+        <div class="container">
+            <div class="service-row">
+                <div class="service-card" data-aos="fade-down">
+                    <img class = "service-card-image" src="image/icon/obrz.svg" alt="Образование">
+                    <h3 class="service-card-title">Образование</h3>
+                    <p class="textt">Я высококвалифицированный специалист с высшим образованием. <br> За мой стаж работы много клиентов остались довольны и стали моими постоянными, получая персональные акции и бонусы по нашей бонусной системе.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-down">
+                    <img class = "service-card-image" src="image/icon/cs.png" alt="Качественные и лицензированные препараты">
+                    <h3 class="service-card-title">Качественные и лицензированные препараты</h3>
+                    <p class="textt">В работе я использую только качественные и лицензированные препараты от лучших производителей.</p>
+                </div>
+
+                <div class="service-card" data-aos="fade-down">
+                    <img class = "service-card-image" src="image/icon/bonus.png" alt="Бонусная система">
+                    <h3 class="service-card-title">Бонусная система</h3>
+                    <p class="textt">Для постоянных клиентов у нас имеется бонусная система. <br> При повторных процедурах вы получаете скидки. А также акции и спец.предложения каждый месяц персонально для вас.</p>
+                </div>
+
+            </div>
+        </div>
+   </section>
+  </main>
+
+   <section class="portfolio" id="work">
+    <div class="container">
+        <div class="portfolio-title">
+            <H2 class="title-1">Мои работы</H2>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="image/works/msg998170587-169840.jpg"></div>
+              <div class="swiper-slide"><img src="image/works/msg998170587-169841.jpg"></div>
+              <div class="swiper-slide"><img src="image/works/msg998170587-169843.jpg"></div>
+              <div class="swiper-slide"><img src="image/works/msg998170587-169844.jpg"></div>
+              <div class="swiper-slide"><img src="image/works/msg998170587-169849.jpg"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <script>
+            var swiper = new Swiper(".mySwiper", {
+              spaceBetween: 30,
+              navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+              },
+              pagination: {
+                el: ".swiper-pagination",
+              },
+              mousewheel: true,
+              keyboard: true,
+            });
+          </script>
+          </div>
+    </div>
+   </section>
+
+   <section class="document" id="doc">
+    <div class="container">
+        <div class="portfolio-title">
+            <H2 class="title-1">Мои документы и сертификаты</H2>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="image/doc/1.jpg"></div>
+              <div class="swiper-slide"><img src="image/doc/2.jpg"></div>
+              <div class="swiper-slide"><img src="image/doc/3.jpg"></div>
+              <div class="swiper-slide"><img src="image/doc/4.jpg"></div>
+              <div class="swiper-slide"><img src="image/doc/5.jpg"></div>
+              <div class="swiper-slide"><img src="image/doc/6.jpg"></div>
+              <div class="swiper-slide"><img src="image/doc/7.jpg"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          </div>
+    </div>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+          mousewheel: true,
+          keyboard: true,
+        });
+      </script>
+   </section>
+
+   <section class="contact" id="cont">
+    <div class="container">
+        <div class="portfolio-title">
+            <H2 class="title-1">Контакты</H2>
+        </div>
+        <div class="map">
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A0c36da3a18942d0ff993ae8eb2bb68f886e555a93612f516ff026c120bfaa9d7&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
+          <div class="contactt">
+          <p><strong>Мои косметологические кабинеты: </strong> <br>г.Москва, Ленинский проспект, дом 34\1<Br> ( Метро Динамо )<br><br> г.Москва,Проспект Вернадского, дом 60к1<Br> ( Метро Проспект Вернадского ) <br><br> 
+          В моих соц.сетях вы сможете следить за всеми акциями и спец.предложениями. А также увидеть мои работы и отзывы клиентов. <br><Br>
+        Если вы не хотите оставлять заявку и ждать пока вам позвонят, вы можете написать мне лично в Whatsapp.</p>
+          <div class="icon">
+          <a href="https://instagram.com/aa.reyhan?utm_medium=copy_link" target="_blank"><img src="image/icon/inst-icon.svg" alt="insta"></a>
+          <a href="https://t.me/reyhan_agaeva" target="_blank"><img src="image/icon/tg-icon.svg" alt="telega"></a>
+          <a href="https://api.whatsapp.com/send/?phone=79251897991&text&app_absent=0" target="_blank"><img src="image/icon/whatsapp-icon.svg" alt="whatsapp"></a>
+          </div>
+          <div class="zapis2">
+            <div class="button">
+  <a href="#" id="opp">
+      <span class="button__line button__line--top"></span>
+          <span class="button__line button__line--right "></span>
+              <span class="button__line button__line--bottom "></span>  
+                  <span class="button__line button__line--left"></span>
+              Запись</a>
+            </div>
+          </div>
+          <div class="pup" id="pup">
+            <div class="pupcontainer">
+              <div class="pupbody" id="pupbody">
+                <p>Оставить заявку</p>
+                <form id="tg">
+									<input name="name" type="text" class="user_name" placeholder="Ваше имя">
+									<input name="number" type="tel" class="message" placeholder="Ваш номер телефона">
+									<button type="submit" class="button">Оставить заявку</button>
+									<div id="success" class="success" style="display: none;"></div>
+								</form>
+                <div class="pupclose" id="pupclose">&#10006;</div>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+        </div>
+        
+    </div>
+
+		<footer id="footer" role="contentinfo" class="footer">
+
+				<div class="footer-contacts">
+					<div class="footer-contacts__item">
+						<a href="#head" class="logo"><img src="image/header/logo1.png" alt=""></a>
+						<div>
+							<p class="footer-p">BEAUTY</p>
+							<p class="footer-p">DOCTOR</p>
+						</div>
+					</div>
+					<div class="footer-contacts__item">
+						<a href="https://instagram.com/aa.reyhan?utm_medium=copy_link"><img class="footer-item__image" src="image/icon/mail-icon.svg" alt="mail" width="50px" ></a>
+						<h3 class="footer-title">MAIL</h3>
+						<p class="footer-p">mail@mail.ru</p>
+					</div>
+					<div class="footer-contacts__item">
+						<a href="https://t.me/reyhan_agaeva"><img class="footer-item__image" src="image/icon/phone-icon.svg" alt="phone" width="50px"></a>
+						<h3 class="footer-title">CALL</h3>
+						<p class="footer-p">+7 (999) 999-99-99</p>
+					</div>
+					<div class="footer-contacts__item">
+						<a href="https://api.whatsapp.com/send/?phone=79251897991&text&app_absent=0"><img class="footer-item__image" src="image/icon/gps-icon.svg" alt="gps-icon" width="50px"></a>
+						<h3 class="footer-title">FIND US</h3>
+						<p class="footer-p">г.Москва, Ленинский проспект, дом 34\1
+							( Метро Динамо )</p>
+					</div>
+				                 
+				</div>
+		</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script> 
+	<script src="js/main.js"></script>
+	<script>
+		const TOKEN = '6252271087:AAEorkczNR30ZODvjbD-I3-Qwyg4K1LWA8E';
+		const CHAT_ID = '-1001924078536';
+		const URI_API = `https://api.telegram.org/bot${TOKEN}/sendMessage`;
+		const success = document.getElementById('success');
+
+		document.getElementById('tg').addEventListener('submit', function(e) {
+			e.preventDefault();
+			let message = `<b>Заявка с сайта!</b>\n`;
+			message += `<b>Отправитель: </b> ${ this.name.value}\n`;
+			message += `<b>Номер: </b> ${ this.number.value}\n`;
+
+
+			axios.post(URI_API, {
+				chat_id: CHAT_ID,
+				parse_mode: 'html',
+				text: message
+			})
+			.then((res) => {
+				this.name.value = "";
+				this.number.value = "";
+				success.innerHTML = "СООБЩЕНИЕ ОТПРАВЛЕНО!";
+				success.style.display = "block";
+			})
+			.catch((err) => {
+				console.log(err);
+			})
+			.finally(() => {
+				
+			})
+		});
+	</script>
+</body>
+</html>
